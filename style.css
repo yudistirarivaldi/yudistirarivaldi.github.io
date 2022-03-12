@@ -1,0 +1,146 @@
+.banner {
+  background: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg")
+    no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+}
+
+.lingkaran {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #fff;
+  background-color: #dc3545;
+}
+
+.lingkaran i {
+  position: relative;
+  top: 30px;
+}
+
+.crop-img {
+  object-fit: cover;
+}
+
+.tim img {
+  width: 250px;
+  border: 10px solid #cccccc;
+}
+
+a.social {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #333;
+  line-height: 40px;
+}
+
+.client img {
+  height: auto;
+  max-height: 50px;
+}
+
+.kontak {
+  background: url("https://wallpaperaccess.com/full/1867010.jpg") no-repeat
+    center center;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  color: #fff;
+}
+
+.image-grid {
+  --gap: 16px;
+  --num-cols: 4;
+  --row-height: 300px;
+
+  box-sizing: border-box;
+  padding: var(--gap);
+
+  display: grid;
+  grid-template-columns: repeat(var(--num-cols), 1fr);
+  grid-auto-rows: var(--row-height);
+  gap: var(--gap);
+}
+
+.image-grid > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.image-grid-col-2 {
+  grid-column: span 2;
+}
+
+.image-grid-row-2 {
+  grid-row: span 2;
+}
+
+/* Anything udner 1024px */
+@media screen and (max-width: 1024px) {
+  .image-grid {
+    --num-cols: 2;
+    --row-height: 200px;
+  }
+}
+
+.main {
+  width: 1330px;
+  height: 900px;
+  background-color: #fafafa;
+  margin: 0 auto;
+  padding-top: 20px;
+  border-radius: 20px;
+  border: 1px solid #eeeeee;
+}
+
+.img {
+  background-image: url(images/me.JPG);
+  background-color: #eaeaea;
+  background-size: cover;
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  border: 1px solid #eaeaea;
+}
+
+.text {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+fieldset {
+  background-color: rgb(255, 247, 238);
+  border-radius: 2ch;
+  text-align: justify;
+  margin: 20px;
+}
+
+legend {
+  background-color: rgb(238, 136, 64);
+  color: white;
+  border: rgb(238, 229, 229) 2px solid;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: -0%;
+  font-weight: bold;
+}
+
+hr {
+  border: 1px solid rgb(238, 136, 64);
+}
+
+.title {
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: -15px;
+}
